@@ -1,0 +1,26 @@
+{
+    "name": "nodejs-typescript",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.ts",
+    "type": "commonjs",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "tsx index.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@langchain/core": "^0.3.26",
+      "@langchain/langgraph": "^0.2.36",
+      "@langchain/openai": "^0.3.16",
+      "dotenv": "^16.4.7",
+      "node-fetch": "^3.3.1",
+      "solana-agent-kit": "^1.1.0"
+    },
+    "devDependencies": {
+      "@types/node": "^20.10.0",
+      "tsx": "^4.7.1"
+    }
+  }
+  
